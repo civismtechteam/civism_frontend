@@ -1,12 +1,13 @@
 import  React from 'react'
 import './FactList.css'
+import FactListItemContainer from "./FactListItemContainer";
 
 class FactList extends React.Component {
 
   render() {
     let facts = [];
     for (var i = 0; i < this.props.facts.length; i++) {
-      facts.push(<li key={i}>{this.props.facts[i].body}</li>)
+      facts.push(<FactListItemContainer key={i} fact={this.props.facts[i]} />)
     }
     return (
       <div className="fact-holder">

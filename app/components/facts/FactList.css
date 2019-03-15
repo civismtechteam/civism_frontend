@@ -4,19 +4,11 @@ ul {
   font-family: 'Barlow';
   font-size: 20px;
   list-style: none;
-}
-
-ul.dashed > li {
-  margin-left: 5px;
-}
-
-ul.dashed > li::before {
-  content: '-';
-  margin-left: -15px;
-  padding-right: 20px;
+  padding: 0;
 }
 
 li {
+  padding: 10px;
   margin: 0 0 10px 0;
 }
 
