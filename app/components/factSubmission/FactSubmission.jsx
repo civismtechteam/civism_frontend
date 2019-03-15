@@ -8,7 +8,7 @@ class FactSubmission extends React.Component {
       <div className="form-container">
         <form>
           <div className="form-item">
-            <label for="fact">Submit a Fact</label>
+            <label htmlFor="fact">Submit a Fact</label>
           </div>
           <div className="form-item">
             <textarea id="subject" name="subject" placeholder="Write something...">
