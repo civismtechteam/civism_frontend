@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+h1 {
+  color: #0C3A68;
+  font-family: 'Barlow';
+  padding-left: 60px;
+}

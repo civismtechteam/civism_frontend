@@ -1,0 +1,9 @@
+input {
+  margin-left: 50px;
+  width: 500px;
+  height: 150px;
+}
+
+button {
+  float: right;
+}

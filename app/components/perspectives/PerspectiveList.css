@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+ul {
+  font-family: 'Barlow';
+  font-size: 20px;
+  list-style: none;
+}
+
+li {
+  margin: 0 0 10px 0;
+}
+
+.list-item {
+  background-color: white;
+  margin: 20px 50px;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
