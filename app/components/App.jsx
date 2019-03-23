@@ -25,7 +25,6 @@ class App extends React.Component {
   }
 
   openModal() {
-    console.log();
     this.setState({modalIsOpen: true});
   }
 

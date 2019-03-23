@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
+    "pluralize": "^7.0.0",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.4",

@@ -1,7 +1,7 @@
 import  React from 'react';
 import CommentCount from "../shared/CommentCount.jsx";
-import UpVoteCount from "../shared/UpVoteCount.jsx";
-import DownVoteCount from "../shared/DownVoteCount.jsx";
+import UpVoteCountContainer from "../shared/UpVoteCountContainer.js";
+import DownVoteCountContainer from "../shared/DownVoteCountContainer.js";
 import "./FactListItem.scss";
 
 class FactListItem extends React.Component {
@@ -13,8 +13,8 @@ class FactListItem extends React.Component {
         <div> {body}</div>
         <div>
           <CommentCount resource={"fact"} id={id} num_comments={num_comments} />
-          <UpVoteCount resource={"fact"} id={id} num_up_votes={num_upvotes} />
-          <DownVoteCount resource={"fact"} id={id} num_down_votes={num_downvotes} />
+          <UpVoteCountContainer resource={"fact"} id={id} num_up_votes={num_upvotes} />
+          <DownVoteCountContainer resource={"fact"} id={id} num_down_votes={num_downvotes} />
         </div>
       </li>
     );

@@ -4,7 +4,7 @@ import "./AggregateIcon.scss";
 
 export default function(props) {
   return (
-    <div className="aggregate-icon-container">
+    <div className="aggregate-icon-container" onClick={props.createVote} >
       <FaCaretUp /> {props.num_up_votes}
     </div>
   )
