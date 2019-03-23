@@ -7,14 +7,14 @@ import "./FactListItem.scss";
 class FactListItem extends React.Component {
 
   render() {
-    const { body, num_comments, num_upvotes, num_downvotes } = this.props.fact;
+    const { body, num_comments, num_upvotes, num_downvotes, id } = this.props.fact;
     return (
       <li className="fact-list-item">
         <div> {body}</div>
         <div>
-          <CommentCount num_comments={num_comments} />
-          <UpVoteCount num_up_votes={num_upvotes} />
-          <DownVoteCount num_down_votes={num_downvotes} />
+          <CommentCount resource={"fact"} id={id} num_comments={num_comments} />
+          <UpVoteCount resource={"fact"} id={id} num_up_votes={num_upvotes} />
+          <DownVoteCount resource={"fact"} id={id} num_down_votes={num_downvotes} />
         </div>
       </li>
     );
