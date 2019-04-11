@@ -6,8 +6,8 @@ class ScoopHeader extends React.Component {
   render() {
     return (
       <div className="scoop-header">
-        <h1>{this.props.name}</h1>
-        <img src="https://psmag.com/.image/t_share/MTYyMTE1NDk5NjI5NDg3NDA2/gettyimages-1059173626.jpg" alt="Long Island City" />
+        <p>{this.props.name}</p>
+        <img src="https://imgs.6sqft.com/wp-content/uploads/2018/10/31100800/LIC-Investment-Strategy.png" alt="Long Island City" />
       </div>
     );
   }

@@ -5,7 +5,7 @@ import { withModalAccess } from "../../context/ModalContext.js"
 
 function CommentCount(props) {
   return (
-    <div className="aggregate-icon-container" onClick={props.modal.open}>
+    <div className="aggregate-icon-container" onClick = {() => props.modal.open({resource: props.resource, id: props.id})}>
       <FaComments /> {props.num_comments}
     </div>
   )

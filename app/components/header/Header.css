@@ -9,7 +9,7 @@ body {
 .header {
   overflow: hidden;
   background-color: #0C3A68;
-  padding: 30px 10px;
+  padding: 20px 10px;
   margin: 0;
   font-family: 'Quicksand';
   font-weight: 300;
@@ -32,4 +32,9 @@ body {
 a {
   padding: 14px 16px;
   color: #ddd;
+}
+
+.home {
+  font-size: 20px;
+  padding-bottom: 5px;
 }
