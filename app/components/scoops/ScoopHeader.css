@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway');
 
 h1 {
-  color: #0C3A68;
-  font-family: 'Barlow';
-  padding-left: 60px;
+  /* color: #0C3A68; */
+  font-family: 'Raleway';
+  text-align: center;
+  /* margin: auto; */
+  /* padding-left: 100px; */
+  /* padding-top: 40px; */
+}
+
+img {
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; */
+  /* padding-left: 100px; */
+}
+
+.scoop-header {
+    margin: auto;
+    /* width: 60% */
 }

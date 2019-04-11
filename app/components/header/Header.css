@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #DDE4EA;
+  /* background-color: #DDE4EA; */
 }
 
 .header {
@@ -14,7 +14,8 @@ body {
   font-family: 'Quicksand';
   font-weight: 300;
   color: white;
-  font-size: 25px
+  font-size: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-right {
@@ -24,4 +25,11 @@ body {
 
 .logo {
   padding-left: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+a {
+  padding: 14px 16px;
+  color: #ddd;
 }

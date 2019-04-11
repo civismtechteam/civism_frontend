@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway');
 
 ul {
   font-family: 'Barlow';
@@ -11,8 +11,20 @@ li {
 }
 
 .list-item {
-  background-color: white;
+  /* background-color: white; */
   margin: 20px 50px;
   padding: 10px 10px;
   border-radius: 10px;
+}
+
+.perspective-holder {
+  background-color: #f3f3f3;
+  margin-top: -20px;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 30px;
+  padding-left: 30px;
+  margin-bottom: -20px;
 }

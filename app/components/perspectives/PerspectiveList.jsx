@@ -10,6 +10,7 @@ class PerspectiveList extends React.Component {
     }
     return (
       <div className="perspective-holder">
+        <h3>Perspectives</h3>
         <ul>{perspectives}</ul>
       </div>
     );

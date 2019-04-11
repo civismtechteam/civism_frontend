@@ -10,8 +10,8 @@ class FactListItem extends React.Component {
     const { body, num_comments, num_upvotes, num_downvotes, id } = this.props.fact;
     return (
       <li className="fact-list-item">
-        <div> {body}</div>
-        <div>
+        <div className="fact"> {body}</div>
+        <div className="actions">
           <CommentCount resource={"fact"} id={id} num_comments={num_comments} />
           <UpVoteCountContainer resource={"fact"} id={id} num_up_votes={num_upvotes} />
           <DownVoteCountContainer resource={"fact"} id={id} num_down_votes={num_downvotes} />

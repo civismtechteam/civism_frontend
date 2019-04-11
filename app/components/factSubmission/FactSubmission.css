@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway');
 
 label {
-  font-family: 'Barlow';
+  font-family: 'Raleway';
   font-size: 20px;
 }
 
 input[type=text], select, textarea {
-  width: 60%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -29,13 +29,22 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+  /* float: right; */
+  /* justify-self: end; */
+}
+
+form {
+  grid-column-start: 2;
 }
 
 .form-container {
   /* position:absolute; */
   display: grid;
-  grid-template-columns: auto;
-  margin-left: 50px;
+  grid-template-columns: auto auto auto;
+  /* margin-left: 50px; */
+  background-color: #f3f3f3;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* top:50%;
   right:0;
   left:0; */
