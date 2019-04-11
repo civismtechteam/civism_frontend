@@ -17,7 +17,9 @@ class App extends React.Component {
     super(props)
     bindAll(this, "openModal", "closeModal");
     this.state = {
-      modalIsOpen: false
+      modalIsOpen: false,
+      resource: '',
+      id: -1
     };
   }
 
@@ -25,8 +27,8 @@ class App extends React.Component {
     this.props.fetchInitialState();
   }
 
-  openModal() {
-    this.setState({modalIsOpen: true});
+  openModal({ resource, id, comments }) {
+    this.setState({modalIsOpen: true, resource: resource, id: id});
   }
 
   closeModal() {
@@ -42,8 +44,8 @@ class App extends React.Component {
 
     return (
       <div>
-        <Modal isOpen={this.state.modalIsOpen} onRequestClose={this.closeModal}>
-          <FactModalContainer />
+        <Modal isOpen={this.state.modalIsOpen} onRequestClose={this.closeModal} >
+          <FactModalContainer resource={this.state.resource} id={this.state.id}/>
         </Modal>
         <ModalContext.Provider value={modalOptions}>
           <HeaderContainer />
