@@ -1,7 +1,6 @@
 import  React from "react"
 import "./FactList.css"
 import FactListItemContainer from "./FactListItemContainer";
-import FactModalContainer from "./FactModalContainer.js"
 import { Button } from "react-bootstrap";
 
 class FactList extends React.Component {

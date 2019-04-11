@@ -4,6 +4,7 @@ import HeaderContainer from './header/HeaderContainer.js'
 import FactListContainer from './facts/FactListContainer.js'
 import PerspectiveListContainer from './perspectives/PerspectiveListContainer.js'
 import FactSubmissionContainer from './factSubmission/FactSubmissionContainer.js'
+import FactModalContainer from "./facts/FactModalContainer.js"
 import Modal from "react-modal";
 import { bindAll } from "underscore";
 
@@ -41,7 +42,9 @@ class App extends React.Component {
 
     return (
       <div>
-        <Modal isOpen={this.state.modalIsOpen} onRequestClose={this.closeModal} />
+        <Modal isOpen={this.state.modalIsOpen} onRequestClose={this.closeModal}>
+          <FactModalContainer />
+        </Modal>
         <ModalContext.Provider value={modalOptions}>
           <HeaderContainer />
           <ScoopHeaderContainer />
