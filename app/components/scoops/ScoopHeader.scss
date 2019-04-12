@@ -15,9 +15,11 @@ p {
 .scoop-header {
     margin: auto;
     img {
-      width: 800px;
+      width: 40%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 10px;
+      // box-shadow: #CCC 3px 3px 2px;
     }
 }
