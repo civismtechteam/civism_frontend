@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .fact-list-item {
-  font-family: 'Quicksand';
+  font-family: 'Roboto';
   display: grid;
   grid-template-columns: 80px calc(80% - 80px) 20%;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #ccc;
   padding-top: 10px;
   padding-bottom: 10px;
 }

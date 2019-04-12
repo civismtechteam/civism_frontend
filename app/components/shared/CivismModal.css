@@ -1,0 +1,8 @@
+.comment-holder {
+  display: grid;
+  grid-template-columns: 18% 64% 18%;
+}
+
+ul {
+  grid-column-start: 2;
+}
