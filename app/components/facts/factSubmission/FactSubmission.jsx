@@ -29,7 +29,7 @@ class FactSubmission extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="fact-submission-container">
         <textarea id="subject" name="subject" placeholder="Submit a fact..." value={this.state.body} onChange={this._handleChange("body")} />
         <input type="text" id="subject" name="subject" placeholder="What's the source?" value={this.state.source_link} onChange={this._handleChange("source_link")} />
         <input type="submit" value="Submit" onClick={this._handleSubmit} />
