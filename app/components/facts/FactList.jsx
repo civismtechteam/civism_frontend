@@ -1,7 +1,9 @@
 import  React from "react"
 import "./FactList.css"
+import FactSubmissionContainer from './factSubmission/FactSubmissionContainer.js'
 import FactListItemContainer from "./FactListItemContainer";
 import { Button } from "react-bootstrap";
+
 
 class FactList extends React.Component {
 
@@ -12,7 +14,10 @@ class FactList extends React.Component {
 
     return (
       <div className="fact-holder">
-        <ul className="dashed">{facts}</ul>
+        <ul className="dashed">
+        {facts}
+        <FactSubmissionContainer />
+        </ul>
       </div>
     );
   }

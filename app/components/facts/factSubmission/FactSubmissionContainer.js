@@ -1,5 +1,7 @@
 import { connect } from 'react-redux'
 import FactSubmission from './FactSubmission.jsx'
+import { createFact } from "../../../actions/factActions.js";
+
 
 const mapStateToProps = (state) => {
   return {}
@@ -7,7 +9,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-
+    createFact: fact => dispatch(createFact({ fact, scoopId: 1 }))
   }
 }
 
