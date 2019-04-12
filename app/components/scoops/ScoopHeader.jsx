@@ -1,5 +1,5 @@
 import  React from 'react'
-import './ScoopHeader.css'
+import './ScoopHeader.scss'
 
 class ScoopHeader extends React.Component {
 

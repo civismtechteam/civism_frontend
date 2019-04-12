@@ -2,11 +2,13 @@ import { combineReducers } from 'redux'
 import scoopReducer from './scoopReducer.js'
 import factsReducer from './factsReducer.js'
 import perspectivesReducer from './perspectivesReducer.js'
+import usersReducer from './usersReducer.js'
 
 const rootReducer = combineReducers({
   scoop: scoopReducer,
   facts: factsReducer,
-  perspectives: perspectivesReducer
+  perspectives: perspectivesReducer,
+  users: usersReducer
 })
 
 export default rootReducer

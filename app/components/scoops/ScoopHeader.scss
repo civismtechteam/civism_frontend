@@ -10,16 +10,14 @@ p {
   /* padding-top: 40px; */
 }
 
-img {
-  width: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin: auto; */
-  /* padding-left: 100px; */
-}
+
 
 .scoop-header {
     margin: auto;
-    /* width: 60% */
+    img {
+      width: 800px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
