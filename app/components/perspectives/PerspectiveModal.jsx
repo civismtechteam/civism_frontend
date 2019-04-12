@@ -1,5 +1,5 @@
 import  React from 'react'
-import './FactModal.css'
+import './PerspectiveModal.css'
 import { Modal, Button } from 'react-bootstrap';
 import CommentListItemContainer from "../shared/CommentListItemContainer";
 
@@ -17,4 +17,4 @@ class FactModal extends React.Component {
   }
 }
 
-export default FactModal;
+export default PerspectiveModal;
