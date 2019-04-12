@@ -4,7 +4,7 @@
 
   font-family: 'Roboto';
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 80px calc(80% - 80px) 20%;
   border-bottom: 1px solid #aaa;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -34,11 +34,12 @@
 }
 
 .comment {
-  margin-bottom: 20px;
-  // grid-column-start: 2;
+  display: flex;
+  align-items: center;
 }
 
 .actions {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
