@@ -20,6 +20,7 @@ class CivismModal extends React.Component {
 
     return (
       <div className="comment-holder">
+        <h3>Comments</h3>
         <ul className="dashed">{comments}</ul>
       </div>
     );

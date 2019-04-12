@@ -14,6 +14,7 @@ class FactList extends React.Component {
 
     return (
       <div className="fact-holder">
+        <h3>Facts</h3>
         <ul className="dashed">
         {facts}
         <FactSubmissionContainer />

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Roboto:300');
 
 ul {
-  font-family: 'Barlow';
+  font-family: 'Roboto';
   font-size: 20px;
   list-style: none;
   padding-top: 20px;
