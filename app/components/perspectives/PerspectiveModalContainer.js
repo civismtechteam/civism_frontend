@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import FactModal from './FactModal.jsx'
+import PerspectiveModal from './PerspectiveModal.jsx'
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -16,4 +16,4 @@ const mapDispatchToProps = (dispatch) => {
 
 export default connect(
   mapStateToProps, mapDispatchToProps
-)(FactModal)
+)(PerspectiveModal)

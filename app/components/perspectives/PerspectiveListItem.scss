@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+
+.perspective-list-item {
+
+  font-family: 'Quicksand';
+  display: grid;
+  grid-template-columns: 80% 20%;
+  border-bottom: 1px solid #aaa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.perspective {
+  margin-bottom: 20px;
+  // grid-column-start: 2;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
