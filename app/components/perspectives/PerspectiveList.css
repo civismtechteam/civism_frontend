@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Raleway|Lato:300');
 
 ul {
   font-family: 'Barlow';
   font-size: 20px;
   list-style: none;
+  padding-top: 20px;
+  grid-column-start: 2;
 }
 
 li {
@@ -18,13 +20,16 @@ li {
 }
 
 .perspective-holder {
-  background-color: #f3f3f3;
-  margin-top: -20px;
+  background-color: #fAfAfA;
+  font-family: 'Lato';
+  display: grid;
+  grid-template-columns: 19% 60% 21%;
 }
 
 h3 {
-  font-family: 'Raleway';
+  font-family: 'Lato';
   font-size: 30px;
   padding-left: 30px;
   margin-bottom: -20px;
+  grid-column-start: 2;
 }

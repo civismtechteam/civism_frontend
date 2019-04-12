@@ -1,7 +1,7 @@
 import  React from 'react';
-import CommentCount from "../shared/CommentCount.jsx";
-import UpVoteCountContainer from "../shared/UpVoteCountContainer.js";
-import DownVoteCountContainer from "../shared/DownVoteCountContainer.js";
+import CommentCount from "./CommentCount.jsx";
+import UpVoteCountContainer from "./UpVoteCountContainer.js";
+import DownVoteCountContainer from "./DownVoteCountContainer.js";
 import "./CommentListItem.scss";
 
 class CommentListItem extends React.Component {
