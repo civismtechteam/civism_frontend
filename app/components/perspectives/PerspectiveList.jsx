@@ -1,5 +1,6 @@
 import  React from 'react'
 import './PerspectiveList.css'
+import './FilterContainer.scss'
 import PerspectiveListItemContainer from "./PerspectiveListItemContainer";
 import { Button } from "react-bootstrap";
 
@@ -13,6 +14,15 @@ class PerspectiveList extends React.Component {
     return (
       <div className="perspective-holder">
         <h3>Perspectives</h3>
+        <div id="filter-container">
+          <label><input type="checkbox" />Conservative</label>
+          <label><input type="checkbox" />Liberal</label>
+          <label><input type="checkbox" />Moderate</label>
+          <label><input type="checkbox" />Neo-Liberal</label>
+          <label><input type="checkbox" />Laissez-Faire</label>
+          {/*<label><input type="checkbox" />Capitalist</label>*/}
+          {/*<label><input type="checkbox" />Socialist</label>*/}
+        </div>
         <ul>{perspectives}</ul>
       </div>
     );

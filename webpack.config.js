@@ -10,9 +10,6 @@ module.exports = {
   entry: ['@babel/polyfill', __dirname + '/app/index.js'],
   resolve: {
     extensions: ['.js', '.jsx', '.css']
-    // moduleDirectories: [
-    //   'node_modules'
-    // ]
   },
   module: {
     rules: [
@@ -34,7 +31,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: 'transformed.js',
+    filename: 'bundle.js',
     path: __dirname + '/build'
   },
   plugins: [HTMLWebpackPluginConfig],

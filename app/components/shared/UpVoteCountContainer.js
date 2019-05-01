@@ -9,7 +9,10 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch, ownProps) => {
   const { id, resource } = ownProps;
   return {
-    createVote: () => dispatch(createVote({ id, resource, direction: 1 }))
+    createVote: event => {
+      event.stopPropogation();
+      dispatch(createVote({ id, resource, direction: 1 }))
+    }
   }
 }
 
