@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "deploy": "NODE_ENV=production npx webpack -p; aws s3 sync build/ s3://civism-frontend",
+    "deploy": "NODE_ENV=production npx webpack -p; aws s3 sync build/ s3://civism.world",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
   },
